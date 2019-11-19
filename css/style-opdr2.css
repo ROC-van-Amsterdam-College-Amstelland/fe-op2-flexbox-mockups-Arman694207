@@ -1,3 +1,40 @@
 html, body{
+    margin: 0px;
+    padding: 0px;
     height: 100%;
+    display: flex;
+}
+main {
+    background: orange;
+}
+.container{
+    height: 800px;
+    width: 300px;
+    background-color: forestgreen;
+}
+.box{
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    display: inline-block;
+    margin: 30px;
+    margin-left: 45px;
+}
+.mContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1250px;
+    height: 450px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.mBox{
+    display: inline-block;
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+    padding-left: 40%;
+    border: 1px solid black;
 }
